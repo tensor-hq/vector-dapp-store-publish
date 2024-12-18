@@ -1,0 +1,48 @@
+publisher:
+  name: Tensor Labs Inc.
+  address: ''
+  website: tensor.so
+  email: help@vector.fun
+  media:
+    - purpose: icon
+      uri: ./media/icon.png
+app:
+  name: "Vector: Buy Memecoins & Crypto"
+  address: ''
+  android_package: fun.vector.wallet
+  urls:
+    license_url: https://www.vector.fun/terms
+    copyright_url: https://www.vector.fun/terms
+    privacy_policy_url: https://www.vector.fun/privacy
+    website: https://www.vector.fun
+  media:
+    - purpose: icon
+      uri: ./media/icon.png
+release:
+  address: ''
+  media:
+    - purpose: icon
+      uri: ./media/icon.png
+    - purpose: screenshot
+      uri: ./media/1.png
+    - purpose: screenshot
+      uri: ./media/2.png
+    - purpose: screenshot
+      uri: ./media/3.png
+    - purpose: screenshot
+      uri: ./media/4.png
+    - purpose: screenshot
+      uri: ./media/5.png
+  files:
+    - purpose: install
+      uri: ./files/vector.apk
+  catalog:
+    en-US:
+      name: "Vector: Buy Memecoins & Crypto"
+      short_description: "Trade on Solana, ETH, Base"
+      long_description: "Trade any token instantly and securely on Solana, Ethereum, and Base — all in a single app with Vector. Ape into memecoins with your friends with real-time trade alerts, and climb to the top of the leaderboards for ultimate bragging rights."
+      new_in_version: "General improvements and bug fixes"
+      saga_features: "None at the moment."
+solana_mobile_dapp_publisher_portal:
+  google_store_package: fun.vector.wallet
+  testing_instructions: "Login with any email. Use invite code yumtofu."
