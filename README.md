@@ -1,18 +1,26 @@
 # Vector Solana Dapp Store Publishing
 
+## Prereqs
+
+- Copy Google-signed APK to files/vector.apk
+
+## Build
+
 Signing pubkey: `3A9HveuPTaj2EUHLhukfJME49FbEEWCyNAUTdQwy1vRm`
 
 ```sh
-yarn
-yarn dapp-store --help
+pnpm i
+npx dapp-store --help
+
+export RPC="<RPC URL>"
 
 # First time
-yarn dapp-store create publisher -k ~/.config/solana/dapp_store.json -u <RPC URL>
-yarn dapp-store create app -k ~/.config/solana/dapp_store.json -u <RPC URL>
+just create_publisher
+just create_app
 
 # New release
-yarn dapp-store create release -k ~/.config/solana/dapp_store.json -u <RPC URL>
+just create_app_release
 
-# Submit
-yarn dapp-store publish submit -k ~/.config/solana/dapp_store.json -u <RPC URL>
+# First Submit
+just publish_app_release
 ```
